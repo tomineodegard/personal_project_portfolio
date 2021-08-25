@@ -17,6 +17,12 @@ article {
   width: auto;
   margin: 0.1em;
   border: black solid 1px;
+  align-content: center;
+}
+
+article h1 {
+  align-content: center;
+  font-size: 5em;
 }
 
 .first_section {
