@@ -7,3 +7,27 @@ img {
   width: auto;
   object-fit: cover;
 }
+
+body #landingpage {
+  background-color: gainsboro;
+}
+
+article {
+  height: 3em;
+  width: auto;
+  margin: 0.1em;
+  border: black solid 1px;
+}
+
+.first_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+}
+
+.box1,
+.box3,
+.box5,
+.box8,
+.box10 {
+  background-color: blue;
+}
